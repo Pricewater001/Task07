@@ -6,6 +6,7 @@ import ValueContext from "./components/context";
 import CatContent from "./components/FoxContent";
 import DuckContent from "./components/DuckContent";
 import { Route, Routes } from "react-router-dom";
+import List from "./components/List";
 
 function App() {
   const context = useContext(ValueContext);
@@ -19,6 +20,7 @@ function App() {
           <Route path="Dogs" element={<MainContent />} />
           <Route path="Fox" element={<CatContent />} />
           <Route path="Rice" element={<DuckContent />} />
+          <Route path="List" element={<List />} />
           <Route path="/*" element={<MainContent />} />
         </Routes>
       </ValueContext.Provider>

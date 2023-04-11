@@ -40,6 +40,16 @@ const Navigation = () => {
       >
         Rice
       </Link>
+      <Link
+        to="/List"
+        style={{
+          color: "red",
+          padding : "1rem",
+          textDecoration: "none",
+        }}
+      >
+        List
+      </Link>
     </nav>
   );
 };
