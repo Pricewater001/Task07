@@ -50,6 +50,16 @@ const Navigation = () => {
       >
         List
       </Link>
+      <Link
+        to="/Contactus"
+        style={{
+          color: "red",
+          padding : "1rem",
+          textDecoration: "none",
+        }}
+      >
+        ContactUS
+      </Link>
     </nav>
   );
 };

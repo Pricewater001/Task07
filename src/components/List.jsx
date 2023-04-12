@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import CardItem from './CardItem';
+import style from "../style/list.module.css";
 
 const List = () => {
     const [list,setList] = useState([]);
@@ -18,10 +19,7 @@ const List = () => {
   return (
     <div>
         <h3
-        style={{
-            color:"white",
-           
-        }}
+        className={style.title}
         >spacecrafts</h3>
       {list.length !==0 &&
         list.map(item=>(

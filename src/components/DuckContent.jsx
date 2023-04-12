@@ -5,7 +5,6 @@ import { Button } from "react-bootstrap";
 const DuckContent = () => {
   const [url, setUrl] = useState("");
 
-  // ✅ Works
   async function getData() {
     try {
       const response = await fetch("https://biriyani.anoram.com/get", {
