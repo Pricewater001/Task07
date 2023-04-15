@@ -53,12 +53,22 @@ const Navigation = () => {
       <Link
         to="/Contactus"
         style={{
-          color: "red",
+          color: "black",
           padding : "1rem",
           textDecoration: "none",
         }}
       >
         ContactUS
+      </Link>
+      <Link
+        to="/Table"
+        style={{
+          color: "yellow",
+          padding : "1rem",
+          textDecoration: "none",
+        }}
+      >
+        Table
       </Link>
     </nav>
   );

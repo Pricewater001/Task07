@@ -8,6 +8,7 @@ import DuckContent from "./components/DuckContent";
 import { Route, Routes } from "react-router-dom";
 import List from "./components/List";
 import ContactUs from "./components/Forms/ContactUs";
+import Table from "./components/Table";
 
 function App() {
   const context = useContext(ValueContext);
@@ -23,6 +24,7 @@ function App() {
           <Route path="Rice" element={<DuckContent />} />
           <Route path="List" element={<List />} />
           <Route path="Contactus" element={<ContactUs />} />
+          <Route path="Table" element={<Table />} />
           <Route path="/*" element={<MainContent />} />
         </Routes>
       </ValueContext.Provider>
